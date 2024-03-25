@@ -1,5 +1,5 @@
 # build output
-
+dist/*
 
 # generated types
 .astro/
@@ -19,3 +19,11 @@ pnpm-debug.log*
 
 # macOS-specific files
 .DS_Store
+
+# la carpeta de desarrollo.
+src/
+public/
+package-lock.json
+package.json
+tsconfig.json
+astro.config.mjs
